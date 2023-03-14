@@ -14,7 +14,7 @@ To use this program, you'll need to have Rust installed on your system. If you d
 To install the Rust ICS Reader, you can simply clone this repository:
 
 ```bash
-git clone https://github.com/aazvf/rust-ics-reader.git
+git clone https://github.com/aazvf/ics-reader.git
 ```
 
 Once you've cloned the repository, you can build and run the program using Cargo:
