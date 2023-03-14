@@ -14,7 +14,7 @@ To use this program, you'll need to have Rust installed on your system. If you d
 To install the Rust ICS Reader, you can simply clone this repository:
 
 ```bash
-git clone https://github.com/example/rust-ics-reader.git
+git clone https://github.com/aazvf/rust-ics-reader.git
 ```
 
 Once you've cloned the repository, you can build and run the program using Cargo:
@@ -35,9 +35,10 @@ cargo run --release <URL>
 
 The Rust ICS Reader outputs UK bank holidays in JSON format. Each holiday is represented by a JSON object with the following fields:
 
-date_start: The start date of a multi-day holiday in YYYY-MM-DD format.
-date_end: The end date of a multi-day holiday in YYYY-MM-DD format.
-summary: A short summary of the holiday.
+- date_start: The start date of a multi-day holiday in YYYY-MM-DD format.
+- date_end: The end date of a multi-day holiday in YYYY-MM-DD format.
+- summary: A short summary of the holiday.
+
 Here's an example of what the JSON output might look like:
 
 ```json
