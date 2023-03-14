@@ -49,7 +49,6 @@ Here's an example of what the JSON output might look like:
     "summary": "Good Friday"
   },
   {
-    "date": "2023-04-17",
     "date_start": "2023-04-14",
     "date_end": "2023-04-17",
     "summary": "Easter Monday"
